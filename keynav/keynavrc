@@ -1,0 +1,57 @@
+mod4+f start
+e end
+Escape end
+r restart
+q record ~/.config/keynav_macros
+shift+at playback
+z history-back
+semicolon warp,end
+w warp
+t windowzoom
+s cursorzoom 300 300
+Return warp,click 1,end
+Tab warp,click2,end
+space warp,click 3,end
+1 warp,click 1
+2 warp,click 2
+3 warp,click 3
+x warp,click 1,end
+c warp,click 2,end
+v warp,click 3,end
+b click 4
+n click 5
+d warp,doubleclick 1,end
+a warp,doubleclick 1
+u cut-left,cut-up
+i cut-right,cut-up
+o cut-left,cut-down
+p cut-right,cut-down
+shift+y move-left,move-up
+shift+u move-right,move-up
+shift+b move-left,move-down
+shift+n move-right,move-down
+ctrl+y cut-left,cut-up
+ctrl+u cut-right,cut-up
+ctrl+b cut-left,cut-down
+ctrl+n cut-right,cut-down
+h cut-left,warp
+j cut-down,warp
+k cut-up,warp
+l cut-right,warp
+shift+h move-left,warp
+shift+j move-down,warp
+shift+k move-up,warp
+shift+l move-right,warp
+ctrl+h cut-left
+ctrl+j cut-down
+ctrl+k cut-up
+ctrl+l cut-right
+shift+v cursorzoom 30 30,click 1,drag 1
+shift+c center,warp,click 1,end
+
+# Just in case I accidentally continue to hold mod4 (after pressing 'mod4+f' to start keynav)
+mod4+h cut-left
+mod4+j cut-down
+mod4+k cut-up
+mod4+l cut-right
+mod4+e end
